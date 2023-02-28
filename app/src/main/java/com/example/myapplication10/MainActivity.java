@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
         String aaa = new Gson().toJson(new Integer(33));
         Log.e("luchao", "onCreate()  <<-  aaa=" + aaa);
         Log.e("luchao", "commit in dev1" + aaa);
+        Log.e("luchao", "commit2 in dev1" + aaa);
 
 //        MyUtil.test();
 
