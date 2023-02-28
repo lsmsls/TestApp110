@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.util.Log;
 
 //import com.example.mylib1.MyUtil;
+import com.example.mylib1.MyUtil;
 import com.google.gson.Gson;
 
 public class MainActivity extends AppCompatActivity {
@@ -22,11 +23,10 @@ public class MainActivity extends AppCompatActivity {
         p.age = 44;
         String aaa = new Gson().toJson(new Integer(33));
         Log.e("luchao", "onCreate()  <<-  aaa=" + aaa);
-        Log.e("luchao", "commit in dev1" + aaa);
-        Log.e("luchao", "commit2 in dev1" + aaa);
-        Log.e("luchao", "commit3 in dev1" + aaa);
 
-//        MyUtil.test();
+        Log.e("luchao", "commit5 test stash" + aaa);
+
+        MyUtil.test();
 
     }
 
