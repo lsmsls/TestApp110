@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         Log.e("luchao", "onCreate()  <<-  aaa=" + aaa);
         Log.e("luchao", "commit in dev1" + aaa);
         Log.e("luchao", "commit2 in dev1" + aaa);
+        Log.e("luchao", "commit3 in dev1" + aaa);
 
 //        MyUtil.test();
 
