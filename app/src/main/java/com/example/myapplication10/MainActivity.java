@@ -22,6 +22,8 @@ public class MainActivity extends AppCompatActivity {
         p.age = 44;
         String aaa = new Gson().toJson(new Integer(33));
         Log.e("luchao", "onCreate()  <<-  aaa=" + aaa);
+        Log.e("luchao", "commit in dev1" + aaa);
+
 //        MyUtil.test();
 
     }
