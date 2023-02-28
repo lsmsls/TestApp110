@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 
-import com.example.mylib1.MyUtil;
+//import com.example.mylib1.MyUtil;
 import com.google.gson.Gson;
 
 public class MainActivity extends AppCompatActivity {
@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         p.age = 44;
         String aaa = new Gson().toJson(new Integer(33));
         Log.e("luchao", "onCreate()  <<-  aaa=" + aaa);
-        MyUtil.test();
+//        MyUtil.test();
 
     }
 
