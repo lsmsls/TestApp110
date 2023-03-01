@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.util.Log;
 
 //import com.example.mylib1.MyUtil;
+import com.example.mylib1.MyUtil;
 import com.google.gson.Gson;
 
 public class MainActivity extends AppCompatActivity {
@@ -25,8 +26,10 @@ public class MainActivity extends AppCompatActivity {
         Log.e("luchao", "commit in dev1" + aaa);
         Log.e("luchao", "commit2 in dev1" + aaa);
         Log.e("luchao", "commit3 in dev1" + aaa);
+        Log.e("luchao", "commit3 in dev1333" + aaa);
+        Log.e("luchao", "commit3 in dev1333" + aaa);
 
-//        MyUtil.test();
+        MyUtil.test();
 
     }
 
